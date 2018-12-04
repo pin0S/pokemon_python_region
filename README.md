@@ -1,4 +1,3 @@
-# pokemon_python_region
 ## Pythons extraordinary features explained through the world of Pokemon
 
 The purpose of this project is to help me learn about some more advanced topics in Python. In Particular Object Oriented Programing, an area I have struggled to understand since I started learning Python. 
