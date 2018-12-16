@@ -10,7 +10,7 @@ class Trainer:
 	def set_name(self, name):
 		self.name = name
 	def display(self):
-		print(self.name)
+		print(f'Trainer: {self.name}')
 
 trainer_1 = Trainer()
 trainer_1.set_name("Peter")
