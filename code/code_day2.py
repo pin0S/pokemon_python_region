@@ -17,7 +17,7 @@ class Trainer(PythonRegionMember):
     Creates a Python Region trainer
     '''
 
-    def __int__(self, name, age, gender, monster, specialty=None):
+    def __init__(self, name, age, gender, monster, specialty=None):
         super().__init__(name, age, gender)
         self.monster = monster
 
@@ -36,5 +36,5 @@ class Trainer(PythonRegionMember):
 
 
 if __name__ == '__main__':
-    main_trainer = Trainer(name='Pedro Pascal', age='19', gender='Male', monster='Likachu', specialty='ice')
-    print(main_trainer.name, main_trainer.age, main_trainer.gender, main_trainer.monster, main_trainer.specialty)
+    main_trainer = Trainer('Pedro Pascal', '19', 'Male', 'Looper')
+    print(main_trainer.name, main_trainer.age, main_trainer.gender, main_trainer.monster)
